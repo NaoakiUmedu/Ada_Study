@@ -12,4 +12,10 @@ begin
 		-- Assignment
 		I := I + 1;	-- I++‚Í‚È‚¢
 	end loop;
+
+	I := 1;
+	while I <= 5 loop
+		Put_Line ("Hello, World!" & Integer'Image (I));
+		I := I + 1;
+	end loop;
 end Greet_5b;
